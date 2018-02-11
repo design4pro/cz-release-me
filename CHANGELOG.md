@@ -1,14 +1,35 @@
 # Change Log
 
+<a name="1.5.0"></a>
+# [1.5.0](https://github.com/design4pro/cz-release-me/tree/v1.5.0) (2018-02-11)
+
+[Full Changelog](https://github.com/design4pro/cz-release-me/compare/v1.4.0...v1.5.0)
+
+
+### Tests
+
+* **ci:** remove circle ci, read a default configuration file ([5383569](https://github.com/design4pro/cz-release-me/commit/5383569))<br>
+
+
+### Chores
+
+* **package:** update codecov to version 3.0.0 ([06f22bb](https://github.com/design4pro/cz-release-me/commit/06f22bb))<br>
+* **package:** update mocha to version 4.0.0 ([60faf5c](https://github.com/design4pro/cz-release-me/commit/60faf5c))<br>
+* **package:** update rewire to version 3.0.0 ([0778635](https://github.com/design4pro/cz-release-me/commit/0778635))<br>
+* **package:** update shelljs to version 0.8.0 ([3da6045](https://github.com/design4pro/cz-release-me/commit/3da6045))<br>
+* **package:** update sinon to version 4.0.1 ([eb7f4fc](https://github.com/design4pro/cz-release-me/commit/eb7f4fc))<br>
+
+
+### Bug Fixes
+
+* **package:** update inquirer to version 4.0.0 ([f11936e](https://github.com/design4pro/cz-release-me/commit/f11936e))<br>
+* **package:** update inquirer to version 5.0.0 ([798410a](https://github.com/design4pro/cz-release-me/commit/798410a))<br>
+
+
 <a name="1.4.0"></a>
 # [1.4.0](https://github.com/design4pro/cz-release-me/tree/v1.4.0) (2017-09-26)
 
 [Full Changelog](https://github.com/design4pro/cz-release-me/compare/v1.3.1...v1.4.0)
-
-
-### Features
-
-* **ci:** circleci config ([bf97129](https://github.com/design4pro/cz-release-me/commit/bf97129))<br>
 
 
 ### Chores
@@ -18,6 +39,13 @@
 * **package:** update debug to version 3.0.0 ([817763f](https://github.com/design4pro/cz-release-me/commit/817763f))<br>
 * **package:** update sinon to version 3.0.0 ([4054c80](https://github.com/design4pro/cz-release-me/commit/4054c80))<br>
 * **release:** 1.3.2 ([45035b8](https://github.com/design4pro/cz-release-me/commit/45035b8))<br>
+* **release:** 1.4.0 ([d19334b](https://github.com/design4pro/cz-release-me/commit/d19334b))<br>
+
+
+### Features
+
+* **ci:** circleci config ([bf97129](https://github.com/design4pro/cz-release-me/commit/bf97129))<br>
+* **ci:** circleci config ([7b2aa07](https://github.com/design4pro/cz-release-me/commit/7b2aa07))<br>
 
 
 <a name="1.3.1"></a>
