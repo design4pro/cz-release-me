@@ -42,7 +42,7 @@
   },
   "homepage": "https://github.com/design4pro/cz-release-me#readme",
   "dependencies": {
-    "chalk": "^2.0.0",
+    "chalk": "^2.3.1",
     "editor": "^1.0.0",
     "findup": "^0.1.5",
     "inquirer": "^5.0.0",
