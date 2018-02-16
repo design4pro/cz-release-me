@@ -1,14 +1,36 @@
 # Change Log
 
-<a name="1.5.0"></a>
-# [1.5.0](https://github.com/design4pro/cz-release-me/tree/v1.5.0) (2018-02-11)
+<a name="1.6.0"></a>
+# [1.6.0](https://github.com/design4pro/cz-release-me/tree/v1.6.0) (2018-02-16)
 
-[Full Changelog](https://github.com/design4pro/cz-release-me/compare/v1.4.0...v1.5.0)
+[Full Changelog](https://github.com/design4pro/cz-release-me/compare/v1.5.0...v1.6.0)
+
+
+### Bug Fixes
+
+* **package:** questions fix, coverage target change ([266e4bf](https://github.com/design4pro/cz-release-me/commit/266e4bf))<br>
+
+
+### Features
+
+* **package:** default config file ([eac020a](https://github.com/design4pro/cz-release-me/commit/eac020a))<br>
 
 
 ### Tests
 
-* **ci:** remove circle ci, read a default configuration file ([5383569](https://github.com/design4pro/cz-release-me/commit/5383569))<br>
+* **package:** fix code style ([609f27a](https://github.com/design4pro/cz-release-me/commit/609f27a))<br>
+
+
+### Chores
+
+* **package:** fix default config ([7b26d98](https://github.com/design4pro/cz-release-me/commit/7b26d98))<br>
+* **package:** fix default configuration file ([267b909](https://github.com/design4pro/cz-release-me/commit/267b909))<br>
+
+
+<a name="1.5.0"></a>
+# [1.5.0](https://github.com/design4pro/cz-release-me/tree/v1.5.0) (2018-02-11)
+
+[Full Changelog](https://github.com/design4pro/cz-release-me/compare/v1.4.0...v1.5.0)
 
 
 ### Chores
@@ -18,6 +40,12 @@
 * **package:** update rewire to version 3.0.0 ([0778635](https://github.com/design4pro/cz-release-me/commit/0778635))<br>
 * **package:** update shelljs to version 0.8.0 ([3da6045](https://github.com/design4pro/cz-release-me/commit/3da6045))<br>
 * **package:** update sinon to version 4.0.1 ([eb7f4fc](https://github.com/design4pro/cz-release-me/commit/eb7f4fc))<br>
+* **release:** 1.5.0 ([fa5942c](https://github.com/design4pro/cz-release-me/commit/fa5942c))<br>
+
+
+### Tests
+
+* **ci:** remove circle ci, read a default configuration file ([5383569](https://github.com/design4pro/cz-release-me/commit/5383569))<br>
 
 
 ### Bug Fixes
