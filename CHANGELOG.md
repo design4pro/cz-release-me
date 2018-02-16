@@ -1,9 +1,27 @@
 # Change Log
 
+<a name="1.6.1"></a>
+## [1.6.1](https://github.com/design4pro/cz-release-me/tree/v1.6.1) (2018-02-16)
+
+[Full Changelog](https://github.com/design4pro/cz-release-me/compare/v1.6.0...v1.6.1)
+
+
+### Bug Fixes
+
+* **package:** default config load ([4bca5cf](https://github.com/design4pro/cz-release-me/commit/4bca5cf))<br>
+
+
 <a name="1.6.0"></a>
 # [1.6.0](https://github.com/design4pro/cz-release-me/tree/v1.6.0) (2018-02-16)
 
 [Full Changelog](https://github.com/design4pro/cz-release-me/compare/v1.5.0...v1.6.0)
+
+
+### Chores
+
+* **package:** fix default config ([7b26d98](https://github.com/design4pro/cz-release-me/commit/7b26d98))<br>
+* **package:** fix default configuration file ([267b909](https://github.com/design4pro/cz-release-me/commit/267b909))<br>
+* **release:** 1.6.0 ([c99b331](https://github.com/design4pro/cz-release-me/commit/c99b331))<br>
 
 
 ### Bug Fixes
@@ -21,12 +39,6 @@
 * **package:** fix code style ([609f27a](https://github.com/design4pro/cz-release-me/commit/609f27a))<br>
 
 
-### Chores
-
-* **package:** fix default config ([7b26d98](https://github.com/design4pro/cz-release-me/commit/7b26d98))<br>
-* **package:** fix default configuration file ([267b909](https://github.com/design4pro/cz-release-me/commit/267b909))<br>
-
-
 <a name="1.5.0"></a>
 # [1.5.0](https://github.com/design4pro/cz-release-me/tree/v1.5.0) (2018-02-11)
 
@@ -35,8 +47,10 @@
 
 ### Chores
 
+* **package:** update chai-spies to version 1.0.0 ([1318474](https://github.com/design4pro/cz-release-me/commit/1318474))<br>
 * **package:** update codecov to version 3.0.0 ([06f22bb](https://github.com/design4pro/cz-release-me/commit/06f22bb))<br>
 * **package:** update mocha to version 4.0.0 ([60faf5c](https://github.com/design4pro/cz-release-me/commit/60faf5c))<br>
+* **package:** update mocha to version 5.0.0 ([7d82745](https://github.com/design4pro/cz-release-me/commit/7d82745))<br>
 * **package:** update rewire to version 3.0.0 ([0778635](https://github.com/design4pro/cz-release-me/commit/0778635))<br>
 * **package:** update shelljs to version 0.8.0 ([3da6045](https://github.com/design4pro/cz-release-me/commit/3da6045))<br>
 * **package:** update sinon to version 4.0.1 ([eb7f4fc](https://github.com/design4pro/cz-release-me/commit/eb7f4fc))<br>
