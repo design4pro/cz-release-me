@@ -238,18 +238,18 @@ describe("index", function () {
     });
 
     it("should truncate first line if number of characters is higher than 200", function (done) {
-      var chars_100 = "0123456789-0123456789-0123456789-0123456789-0123456789-0123456789-0123456789-0123456789-0123456789-0123456789";
+      var chars100 = "0123456789-0123456789-0123456789-0123456789-0123456789-0123456789-0123456789-0123456789-0123456789-0123456789";
 
       // this string will be prepend: "ISSUES CLOSED: " = 15 chars
-      var footerChars_100 = "0123456789-0123456789-0123456789-0123456789-0123456789-0123456789-0123456789-0123456789-012345";
+      var footerChars100 = "0123456789-0123456789-0123456789-0123456789-0123456789-0123456789-0123456789-0123456789-012345";
 
       var answers = {
         confirmCommit: "yes",
         type: "feat",
         scope: "myScope",
-        subject: chars_100,
-        body: chars_100 + " body-second-line",
-        footer: footerChars_100 + " footer-second-line"
+        subject: chars100,
+        body: chars100 + " body-second-line",
+        footer: footerChars100 + " footer-second-line"
       };
 
       var mockCz = getMockedCz(answers);
@@ -263,11 +263,11 @@ describe("index", function () {
 
         //it should wrap body
         var body = commit.lastCall.args[0].split("\n\n")[1];
-        body.should.equal(chars_100 + "\nbody-second-line");
+        body.should.equal(chars100 + "\nbody-second-line");
 
         //it should wrap footer
         var footer = commit.lastCall.args[0].split("\n\n")[2];
-        footer.should.equal("ISSUES CLOSED: " + footerChars_100 + "\nfooter-second-line");
+        footer.should.equal("ISSUES CLOSED: " + footerChars100 + "\nfooter-second-line");
 
         done();
       }, 100);
