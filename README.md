@@ -4,7 +4,3 @@
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fdesign4pro%2Fcz-release-me.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fdesign4pro%2Fcz-release-me?ref=badge_shield)
 
 > A customizable commitizen adapter for [release-me](https://github.com/design4pro/release-me)
-
-
-## License
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fdesign4pro%2Fcz-release-me.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fdesign4pro%2Fcz-release-me?ref=badge_large)
