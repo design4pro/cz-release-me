@@ -52,7 +52,7 @@
   },
   "devDependencies": {
     "chai": "^4.1.0",
-    "chai-spies": "^0.7.1",
+    "chai-spies": "^1.0.0",
     "codecov": "^3.0.0",
     "commitizen": "^2.9.6",
     "debug": "^3.0.0",
