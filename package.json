@@ -63,7 +63,7 @@
     "mocha": "5.2.0",
     "mock-git": "1.0.3",
     "nyc": "11.2.1",
-    "release-me": "1.4.1",
+    "release-me": "1.4.2",
     "rewire": "4.0.1",
     "rimraf": "2.6.2",
     "shelljs": "0.8.1",
