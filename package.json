@@ -61,7 +61,7 @@
     "jscs": "3.0.7",
     "jshint": "2.9.6",
     "mocha": "5.2.0",
-    "mock-git": "1.0.3",
+    "mock-git": "2.0.0",
     "nyc": "11.9.0",
     "release-me": "1.4.2",
     "rewire": "4.0.1",
