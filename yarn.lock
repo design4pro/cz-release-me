@@ -896,7 +896,13 @@ debug@3.1.0:
   dependencies:
     ms "2.0.0"
 
-debug@3.2.5, debug@^3.1.0:
+debug@^2.6.3, debug@^2.6.8, debug@^2.6.9:
+  version "2.6.9"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"
+  dependencies:
+    ms "2.0.0"
+
+debug@^3.1.0:
   version "3.2.5"
   resolved "https://registry.yarnpkg.com/debug/-/debug-3.2.5.tgz#c2418fbfd7a29f4d4f70ff4cea604d4b64c46407"
   dependencies:
@@ -1945,17 +1951,11 @@ iconv-lite@^0.4.17:
   version "0.4.19"
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.19.tgz#f7468f60135f5e5dad3399c0a81be9a1603a082b"
 
-iconv-lite@^0.4.24, iconv-lite@~0.4.13:
+iconv-lite@^0.4.24:
   version "0.4.24"
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.24.tgz#2022b4b25fbddc21d2f524974a474aafe733908b"
   dependencies:
     safer-buffer ">= 2.1.2 < 3"
-
-ignore-walk@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/ignore-walk/-/ignore-walk-3.0.1.tgz#a83e62e7d272ac0e3b551aaa82831a19b69f82f8"
-  dependencies:
-    minimatch "^3.0.4"
 
 ignore@^3.0.9:
   version "3.3.5"
@@ -3456,9 +3456,9 @@ regexpp@^1.0.1:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/regexpp/-/regexpp-1.1.0.tgz#0e3516dd0b7904f413d2d4193dce4618c3a689ab"
 
-release-me@1.4.1:
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/release-me/-/release-me-1.4.1.tgz#3006939cfaded1c97a714955e3a738a1b24e7088"
+release-me@1.4.2:
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/release-me/-/release-me-1.4.2.tgz#b411b92ac0202ec2387c40058c958665636afabf"
   dependencies:
     chalk "^2.0.0"
     conventional-changelog-core "^1.8.0"
@@ -3468,7 +3468,7 @@ release-me@1.4.1:
     fs-access "^1.0.0"
     q "^1.5.0"
     semver "^5.1.0"
-    yargs "^8.0.1"
+    yargs "^10.0.3"
 
 remove-trailing-separator@^1.0.1:
   version "1.1.0"
@@ -4437,21 +4437,15 @@ yargs-parser@^7.0.0:
   dependencies:
     camelcase "^4.1.0"
 
-yargs-parser@^8.0.0:
+yargs-parser@^8.1.0:
   version "8.1.0"
   resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-8.1.0.tgz#f1376a33b6629a5d063782944da732631e966950"
   dependencies:
     camelcase "^4.1.0"
 
-yargs-parser@^9.0.2:
-  version "9.0.2"
-  resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-9.0.2.tgz#9ccf6a43460fe4ed40a9bb68f48d43b8a68cc077"
-  dependencies:
-    camelcase "^4.1.0"
-
-yargs@11.1.0:
-  version "11.1.0"
-  resolved "http://registry.npmjs.org/yargs/-/yargs-11.1.0.tgz#90b869934ed6e871115ea2ff58b03f4724ed2d77"
+yargs@^10.0.3:
+  version "10.1.2"
+  resolved "https://registry.yarnpkg.com/yargs/-/yargs-10.1.2.tgz#454d074c2b16a51a43e2fb7807e4f9de69ccb5c5"
   dependencies:
     cliui "^4.0.0"
     decamelize "^1.1.1"
@@ -4464,7 +4458,7 @@ yargs@11.1.0:
     string-width "^2.0.0"
     which-module "^2.0.0"
     y18n "^3.2.1"
-    yargs-parser "^9.0.2"
+    yargs-parser "^8.1.0"
 
 yargs@^8.0.1:
   version "8.0.2"
