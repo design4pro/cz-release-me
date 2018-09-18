@@ -2683,6 +2683,12 @@ lru-cache@^4.0.1:
     pseudomap "^1.0.2"
     yallist "^2.1.2"
 
+make-dir@^1.0.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/make-dir/-/make-dir-1.3.0.tgz#79c1033b80515bd6d24ec9933e860ca75ee27f0c"
+  dependencies:
+    pify "^3.0.0"
+
 map-cache@^0.2.2:
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/map-cache/-/map-cache-0.2.2.tgz#c32abd0bd6525d9b051645bb4f26ac5dc98a0dbf"
@@ -2845,22 +2851,21 @@ mocha@5.2.0:
     mkdirp "0.5.1"
     supports-color "5.4.0"
 
-mock-bin@^1.0.0:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/mock-bin/-/mock-bin-1.0.1.tgz#1a41c86d052c1036eb81cda1fd1a76dec22851e0"
+mock-bin@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/mock-bin/-/mock-bin-2.0.0.tgz#e9bc337216921625498acb1f05f55d24c4238eff"
   dependencies:
     cmd-shim "^2.0.2"
     pify "^2.3.0"
-    pinkie-promise "^2.0.1"
     shebang-regex "^2.0.0"
     shelljs "^0.7.0"
-    temp-write "^2.1.0"
+    temp-write "^3.3.0"
 
-mock-git@1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/mock-git/-/mock-git-1.0.3.tgz#3f129e9e6e28a49cce52843fa2a6e1a6756cd2a3"
+mock-git@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/mock-git/-/mock-git-2.0.0.tgz#d7cf0c95eeafe721946b2863da23a95c75e8aa0c"
   dependencies:
-    mock-bin "^1.0.0"
+    mock-bin "^2.0.0"
     shelljs "^0.7.0"
 
 modify-values@^1.0.0:
@@ -3244,11 +3249,15 @@ phantomjs-prebuilt@^2.1.16, phantomjs-prebuilt@~2.1.7:
     request-progress "^2.0.1"
     which "^1.2.10"
 
-pify@^2.0.0, pify@^2.2.0, pify@^2.3.0:
+pify@^2.0.0, pify@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/pify/-/pify-2.3.0.tgz#ed141a6ac043a849ea588498e7dca8b15330e90c"
 
-pinkie-promise@^2.0.0, pinkie-promise@^2.0.1:
+pify@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/pify/-/pify-3.0.0.tgz#e5a4acd2c101fdf3d9a4d07f0dbc4db49dd28176"
+
+pinkie-promise@^2.0.0:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/pinkie-promise/-/pinkie-promise-2.0.1.tgz#2135d6dfa7a358c069ac9b178776288228450ffa"
   dependencies:
@@ -4048,16 +4057,20 @@ table@4.0.2:
     slice-ansi "1.0.0"
     string-width "^2.1.1"
 
-temp-write@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/temp-write/-/temp-write-2.1.0.tgz#59890918e0ef09d548aaa342f4bd3409d8404e96"
+temp-dir@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/temp-dir/-/temp-dir-1.0.0.tgz#0a7c0ea26d3a39afa7e0ebea9c1fc0bc4daa011d"
+
+temp-write@^3.3.0:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/temp-write/-/temp-write-3.4.0.tgz#8cff630fb7e9da05f047c74ce4ce4d685457d492"
   dependencies:
     graceful-fs "^4.1.2"
-    mkdirp "^0.5.0"
-    os-tmpdir "^1.0.0"
-    pify "^2.2.0"
-    pinkie-promise "^2.0.0"
-    uuid "^2.0.1"
+    is-stream "^1.1.0"
+    make-dir "^1.0.0"
+    pify "^3.0.0"
+    temp-dir "^1.0.0"
+    uuid "^3.0.1"
 
 temp@^0.8.3:
   version "0.8.3"
@@ -4272,11 +4285,11 @@ utile@0.2.x:
     ncp "0.4.x"
     rimraf "2.x.x"
 
-uuid@^2.0.1, uuid@^2.0.2:
+uuid@^2.0.2:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-2.0.3.tgz#67e2e863797215530dff318e5bf9dcebfd47b21a"
 
-uuid@^3.3.2:
+uuid@^3.0.1, uuid@^3.3.2:
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
 
